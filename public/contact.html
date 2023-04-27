@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Details</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <h1>Alex's Contact Details:</h1>
+    <p>
+        <h3>Below is an example of my contact details within a non-bordered (non styled/css) table structure:
+    </p>
+    </h3>
+    <table>
+        <caption>
+            <h4>Alex's Contact Details</h4>
+        </caption>
+        <tr>
+            <th scope="col"><strong>email:</strong></th>
+            <th scope="col">
+                <srong>office:</srong>
+            </th>
+            <th scope="col"><strong>phone:</strong></th>
+            <th scope="col"><strong>address:</strong></th>
+        </tr>
+        <tr>
+            <td>atmasandoval@gmail.com</td>
+            <td>(123) 456-0987</td>
+            <td>(555) 555-5555 </td>
+            <td>2468 Highwind Ave., Manzanita, OR 22467</td>
+        </tr>
+    </table>
+    <hr size="2">
+    <h3>
+        <p>Below is an example of my contact details <em>not</em> in a table form, but in a standard paragraph format.
+        </p>
+    </h3>
+    <p><strong>email:</strong> atmasandoval@gmail.com</p>
+    <p><strong>office:</strong> (123) 456-0987</p>
+    <p><strong>phone:</strong> (555) 555-5555</p>
+    <p><strong>home address:</strong> 2468 Highwind Ave. Manzanita, OR 22467</p>
+    <hr size="2">
+    <!--The below form html functionality is really basic and used only if Javascript is not being used. This FORM section will be revisted later in the course to really unlock the full potential of the FORMS ELEMENT by using JavaScript -->
+    <form enctype="text/plain" action="mailto:alexfakeaddress@emailaddress.com" method="post">
+        <label>Your Name:</label>
+        <input type="text" name="YourName" value=""><br>
+        <label>Your EMAIL:</label>
+        <input type="email" name="Your EMAIL address"><br>
+        <label>Your Message:</label><br>
+        <textarea name="Your Message" rows="10" cols="30"></textarea>
+        <input type="submit">
+    </form>
+
+
+  
+
+
+
+</body>
+
+</html>
